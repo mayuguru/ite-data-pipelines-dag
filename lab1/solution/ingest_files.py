@@ -1,4 +1,3 @@
-```python
 """
 Lab 1, part 1: load the attendance CSV files into Bronze.
 
