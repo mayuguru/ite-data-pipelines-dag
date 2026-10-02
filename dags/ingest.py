@@ -12,7 +12,7 @@ REPO = "/workspaces/ite-data-pipelines-3"   # adjust if your folder differs
 with DAG(
     dag_id="ingest",
     description="Load attendance CSVs, student DB and grades API into Bronze.",
-    start_date=datetime(2026, 9, 29, tz="Asia/Singapore),          # tz="Asia/Singapore
+    start_date=datetime(2026, 9, 29, tz="Asia/Singapore"),          # tz="Asia/Singapore"
     schedule="0 2 * * *",                             # change to "0 2 * * *" for 02:00 daily
     catchup=False,
     default_args={
